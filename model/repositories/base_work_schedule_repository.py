@@ -1,0 +1,3 @@
+
+class BaseWorkScheduleRepository:
+    pass

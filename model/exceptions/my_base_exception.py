@@ -1,0 +1,2 @@
+class MyBaseException(Exception):
+    pass

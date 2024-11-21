@@ -1,0 +1,3 @@
+
+class BaseBreakTimeRepository:
+    pass
