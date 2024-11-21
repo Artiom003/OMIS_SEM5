@@ -260,6 +260,7 @@ class AuthenticationView(BaseView):
             return
         except UserExistsWithThisEmailException:
             tk.messagebox.showerror("Ошибка", "Данный администратор уже существует!")
+            return
         except Exception:
             tk.messagebox.showerror("Ошибка", "Неизвестная ошибка!")
             return

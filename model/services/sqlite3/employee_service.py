@@ -16,7 +16,6 @@ class EmployeeService(BaseEmployeeService):
         employee = self.employee_repository.get_employee_by_work_email_and_password(work_email, password)
 
         if employee:
-            print("Найден в базе такой сотрудник")
             employee_dict = {"id": employee.id,
                              "name": employee.name,
                              "surname": employee.surname,
